@@ -18,8 +18,7 @@ jobs:
     - name: Install dependencies
       run: |
         cabal update
-        cabal install --only-dependencies
+        cabal install --only-dependencies -fexamples
     - name: Build
       run: |
-        cabal configure
         cabal build
