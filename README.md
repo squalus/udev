@@ -13,7 +13,7 @@ github.
 
 ### Build Status [![Build Status][status-img]][status-link]
 
-### Maintainer <pxqr.sta@gmail.com>
+### Maintainer <abimelech@gmail.com>
 
 Feel free to report bugs and suggestions via github
 [issue tracker][issues] or the mail.
@@ -23,6 +23,6 @@ Feel free to report bugs and suggestions via github
 [tutor]:       http://www.signal11.us/oss/udev
 [hackage-docs]: http://hackage.haskell.org/package/udev
 [github-docs]: http://pxqr.github.io/udev/
-[status-img]:  https://travis-ci.org/pxqr/udev.png
-[status-link]: https://travis-ci.org/pxqr/udev
-[issues]:      https://github.com/pxqr/udev/issues
+[status-img]:  https://github.com/leifw/udev/workflows/Haskell%20CI/badge.svg
+[status-link]: https://github.com/LeifW/udev/actions?query=workflow%3A%22Haskell+CI%22
+[issues]:      https://github.com/LeifW/udev/issues
