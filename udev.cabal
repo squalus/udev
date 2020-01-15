@@ -1,17 +1,17 @@
 name:                udev
-version:             0.1.0.0
+version:             0.1.1.0
 license:             BSD3
 license-file:        LICENSE
 author:              Sam Truzjan
-maintainer:          pxqr.sta@gmail.com
+maintainer:          abimelech@gmail.com
 copyright:           (c) 2013, Sam Truzjan
 category:            System
 stability:           Experimental
 build-type:          Simple
 cabal-version:       >= 1.10
 tested-with:         GHC == 7.6.3
-homepage:            https://github.com/pxqr/udev
-bug-reports:         https://github.com/pxqr/udev/issues
+homepage:            https://github.com/LeifW/udev
+bug-reports:         https://github.com/LeifW/udev/issues
 synopsis:            libudev bindings
 description:         libudev bindings
 
@@ -20,14 +20,14 @@ extra-source-files:    README.md
 
 source-repository head
   type:                git
-  location:            git://github.com/pxqr/udev.git
+  location:            git://github.com/LeifW/udev.git
   branch:              master
 
 source-repository this
   type:                git
-  location:            git://github.com/pxqr/udev.git
+  location:            git://github.com/LeifW/udev.git
   branch:              master
-  tag:                 v0.1.0.0
+  tag:                 v0.1.1.0
 
 flag examples
   description:         whether to build examples
