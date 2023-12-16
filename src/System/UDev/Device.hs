@@ -324,8 +324,9 @@ foreign import ccall unsafe "udev_device_get_driver"
 
 -- | Get the kernel driver name.
 getDriver :: Device -> ByteString
-getDriver dev = unsafePerformIO $
-  packCString =<< c_getDriver dev
+getDriver dev = unsafePerformIO $ do
+  driver <- c_getDriver dev
+  if driver == nullPtr then return Nothing else Just <$> packCString driver
 
 foreign import ccall unsafe "udev_device_get_devnum"
   c_getDevnum :: Device -> Dev_t

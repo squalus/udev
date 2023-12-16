@@ -17,6 +17,7 @@ dumpDeviceInfo dev = do
   print $ getSysnum    dev
   print $ getDevnode    dev
   print $ getAction    dev
+  print $ getDriver    dev
   putStrLn $ "device number: " ++ show (getDevnum dev)
 
 main :: IO ()
